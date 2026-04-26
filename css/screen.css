@@ -1,0 +1,53 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0b1d3a;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #09142b;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenu */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #132850;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #09142b;
+}
