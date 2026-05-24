@@ -1,0 +1,18 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+main {
+    padding: $spacing;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: $spacing;
+    border-radius: $border-radius;
+
+    button {
+        @include button-style;
+        background-color: $primary-color;
+        color: white;
+    }
+}
